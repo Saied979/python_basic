@@ -1,0 +1,13 @@
+      print(a)
+    else:
+        print(a)
+        print(b)
+        for i in range(2,n):
+            c = a + b
+            a = b
+            b = c
+            print(c)
+            if c == 89:
+                break
+fib(int(input("enter the value")))
+TAGS:
