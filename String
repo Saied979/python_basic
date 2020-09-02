@@ -1,1 +1,93 @@
-## heading
+
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #=====/Python String\===========
+>>> a ="Hello World"
+>>> print(a)
+Hello World
+>>> type(a)
+<class 'str'>
+>>> 
+>>> b = 'bangladesh'
+>>> b
+'bangladesh'
+>>> 
+
+>>> # You can use Three double quotes:
+
+>>> c = """ I love Bnagladesh"""
+>>> print(c)
+ I love Bnagladesh
+>>> d = ''' I love Python'''
+>>> print(d)
+ I love Python
+
+
+
+## You can use single quotes and double quotes in string:
+>>> 
+>>> str = "Adam's"
+>>> str
+"Adam's"
+>>> str = "Adam\'s"
+>>> str
+"Adam's"
+>>> 
+
+>>> # IF you Need to print New Line (\n)
+>>> text = "Hello\nWorld!"
+>>> print(text)
+Hello
+World!
+
+
+>>> # Using Tab(t)
+>>> text = "Hello\tWorld"
+>>> print(text)
+Hello	World
+
+
+ ### Python Strings are same As Arrays, every char has a index....
+>>> a = "Hello, World"
+>>> a[1]
+'e'
+>>> a[0]
+'H'
+
+### Slicing
+>>> a
+'Hello, World'
+>>> a[2:5]
+'llo'
+>>> a[:2]
+'He'
+>>> a[2:]
+'llo, World'
+>>> 
+>>> a[4:]
+'o, World'
+>>> a[:4]
+'Hell'
+>>> 
+
+
+### Negative Indexing start from (-1),,,,,,
+>>> a
+'Hello, World'
+>>> print(a[-5:-2])
+Wor
+>>> 
+>>> a
+'Hello, World'
+>>> a[-3:-3]
+''
+>>> a[-2:-2]
+''
+>>> a[-3:-2]
+'r'
+>>> a[-3]
+'r'
+>>> a[-7:-1]
+', Worl'
+>>> 
+>>> 
