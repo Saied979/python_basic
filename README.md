@@ -22,3 +22,10 @@ Python is a popular programming language. It was created by Guido van Rossum, an
   quick.
 * Python can be treated in a procedural way, an object-orientated way or 
   a functional way.
+  
+  
+  ### Here I'm Cover python basic things
+1. Variable
+2. String
+3. List
+4. List Comprehensions
