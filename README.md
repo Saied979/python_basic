@@ -27,5 +27,6 @@ Python is a popular programming language. It was created by Guido van Rossum, an
 ## Here I'm Cover Python Basic Things
 1. Variable
 2. String
-3. List
-4. List Comprehensions
+3. Operators
+4. List
+5. List Comprehensions
